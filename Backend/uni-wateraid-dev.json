@@ -1,0 +1,305 @@
+{
+  "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:1",
+  "@type": "CapabilityModel",
+  "implements": [
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:0t_6ke9ld:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[properties] Device Info"
+      },
+      "name": "uniWateraidDev_2ih",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[properties] Device Info"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:manufacturer:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Manufacturer"
+            },
+            "name": "manufacturer",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:model:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Model"
+            },
+            "name": "model",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:processorManufacturer:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Processor Manufacturer"
+            },
+            "name": "processorManufacturer",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:processorType:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Processor Type"
+            },
+            "name": "processorType",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:fwVersion:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Firmware Version"
+            },
+            "name": "fwVersion",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:serialNumber:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Serial Number"
+            },
+            "name": "serialNumber",
+            "schema": "string"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2ih:imei:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device imei"
+            },
+            "name": "imei",
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:g7_d84c9j:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[properties] User Settings"
+      },
+      "name": "uniWateraidDev_3u8",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_3u8:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[properties] User Settings"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_3u8:telemetrySendInterval:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Telemetry Send Interval"
+            },
+            "name": "telemetrySendInterval",
+            "writable": true,
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_3u8:sampleValue:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Sensor Sample Times"
+            },
+            "name": "sampleValue",
+            "writable": true,
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_3u8:dataCollectionInterval:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Sensor Data Collection Interval"
+            },
+            "name": "dataCollectionInterval",
+            "writable": true,
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_3u8:propertySendInterval:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Device Properties Send Interval"
+            },
+            "name": "propertySendInterval",
+            "writable": true,
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:t7ldn_fl3:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[properties] Device Status"
+      },
+      "name": "uniWateraidDev_5vg",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_5vg:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[properties] Device Status"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_5vg:batteryRemaining:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Battery Voltage"
+            },
+            "name": "batteryRemaining",
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_5vg:locationAccuracy:1",
+            "@type": "Property",
+            "displayName": {
+              "en": "Geolocation Accuracy"
+            },
+            "name": "locationAccuracy",
+            "writable": false,
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:hv6eted9z:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[telemetry] Water Sensors"
+      },
+      "name": "uniWateraidDev_58g",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_58g:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[telemetry] Water Sensors"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_58g:waterPh:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Water pH"
+            },
+            "name": "waterPh",
+            "displayUnit": {
+              "en": "pH"
+            },
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_58g:waterTurbidity:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Water Turbidity"
+            },
+            "name": "waterTurbidity",
+            "displayUnit": {
+              "en": "ntu"
+            },
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_58g:waterTemp:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Water Temperature"
+            },
+            "name": "waterTemp",
+            "displayUnit": {
+              "en": "°C"
+            },
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:gek_ku_uu:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[telemetry] Atmospheric Sensors"
+      },
+      "name": "uniWateraidDev_2zs",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_2zs:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[telemetry] Atmospheric Sensors"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2zs:atmoTemp:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Atmospheric Temperature"
+            },
+            "name": "atmoTemp",
+            "displayUnit": {
+              "en": "°C"
+            },
+            "schema": "double"
+          },
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_2zs:atmoHumidity:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Atmospheric Humidity"
+            },
+            "name": "atmoHumidity",
+            "displayUnit": {
+              "en": "%"
+            },
+            "schema": "double"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "urn:universumWateraidApp:uniWateraidDev_5e9:wogpv1h5s:1",
+      "@type": "InterfaceInstance",
+      "displayName": {
+        "en": "[telemetry] Geolocation"
+      },
+      "name": "uniWateraidDev_65",
+      "schema": {
+        "@id": "urn:universumWateraidApp:uniWateraidDev_65:1",
+        "@type": "Interface",
+        "displayName": {
+          "en": "[telemetry] Geolocation"
+        },
+        "contents": [
+          {
+            "@id": "urn:universumWateraidApp:uniWateraidDev_65:location:1",
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Device Location"
+            },
+            "name": "location",
+            "schema": "geopoint"
+          }
+        ]
+      }
+    }
+  ],
+  "displayName": {
+    "en": "uni-wateraid-dev"
+  },
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ]
+}
