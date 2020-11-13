@@ -37,14 +37,14 @@ But most importantly, they lack IoT connectivity. Devices that do send data to a
 
 ![Cover Image](https://cdn.hackaday.io/images/3209401601870802537.jpg)
 
-This is where WaterAid comes in. Using industry standard sensors and IoT connectivity, WaterAid redefines water quality monitoring through a set of distinct features setting it apart from other devices on the market.
+This is where UnifiedWater comes in. Using industry standard sensors and IoT connectivity, UnifiedWater redefines water quality monitoring through a set of distinct features setting it apart from other devices on the market.
 
-WaterAid is a portable, baggable device that can operate in two modes – either as a stand-alone, portable device, or as part of a network of tens or hundreds of fixed devices collecting critical water pollution parameters. WaterAid sends all data collected to IoT Central via GSM at defined intervals of time meaning that the device can work anywhere in the world with cellular coverage. The data collected by the device(s) can be monitored and analysed in real time on an online, interactive dashboard using Azure IoT Central anywhere in the world, at any time.
+UnifiedWater is a portable, baggable device that can operate in two modes – either as a stand-alone, portable device, or as part of a network of tens or hundreds of fixed devices collecting critical water pollution parameters. UnifiedWater sends all data collected to IoT Central via GSM at defined intervals of time meaning that the device can work anywhere in the world with cellular coverage. The data collected by the device(s) can be monitored and analysed in real time on an online, interactive dashboard using Azure IoT Central anywhere in the world, at any time.
 
-Interacting with the device is essential for longevity and ensuring its functionality. WaterAid can be configured remotely using twin properties in IoT Central allowing the authorities, university, or private institution to change the number of samples taken, interval of data collection and many other parameters. This reduces the amount of maintenance required by people on the field dramatically.
+Interacting with the device is essential for longevity and ensuring its functionality. UnifiedWater can be configured remotely using twin properties in IoT Central allowing the authorities, university, or private institution to change the number of samples taken, interval of data collection and many other parameters. This reduces the amount of maintenance required by people on the field dramatically.
 
 By only clicking a button online, the device can transition between enterprise mode (where it works with other devices) and personal mode (where it can be submerged at different points by a surveyor).
 
 ![Cover Image](https://cdn.hackaday.io/images/9565001601870864979.jpg)
 
-The flexibility of the implementation together with the low production cost, scalability, security, sustainability, and high accuracy set WaterAid apart from existing competitors. The only way we can make our waters cleaner and save marine species from extinction is by identifying the root causes of pollution by monitoring water quality. Be it in rivers, lakes, or oceans, WaterAid is in the front-line combatting water pollution.
+The flexibility of the implementation together with the low production cost, scalability, security, sustainability, and high accuracy set UnifiedWater apart from existing competitors. The only way we can make our waters cleaner and save marine species from extinction is by identifying the root causes of pollution by monitoring water quality. Be it in rivers, lakes, or oceans, UnifiedWater is in the front-line combatting water pollution.
