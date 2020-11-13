@@ -14,7 +14,7 @@ void setup()
 	Serial.begin(9600);
 	delay(6000);
 
-	logoStart("WaterAid");
+	logoStart("UnifiedWater");
 
 	global.set();
 }
